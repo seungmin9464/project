@@ -1,0 +1,192 @@
+/* FONT */
+@import url(
+  'https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap'
+);
+@import url(
+  "https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css"
+);
+@import url(
+  "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+);
+@import url(
+  'https://fonts.googleapis.com/css2?family=Condiment&family=Monsieur+La+Doulaise&family=Roboto+Slab:wght@100..900&display=swap'
+);
+
+/* CSS RESET */
+*{  box-sizing: border-box; }
+:root{ --vh: 100%; }
+
+article, aside, details, 
+figcaption, figure, footer, 
+main, menu, nav, section, summary{
+  display: block;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, 
+b, big, blockquote, body, 
+canvas, caption, center, cite, code, 
+dd, del, details, dfn, div, dl, dt, 
+em, embed, 
+fieldset, figcaption, figure, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, html, 
+i, iframe, img, ins, kbd, label, legend, li, 
+mark, menu, nav, object, ol, output, 
+p, pre, q, ruby, 
+s, samp, section, small, span, strike, strong, sub, summary, sup, 
+table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+
+a{
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+ul, li{
+  list-style: none;
+}
+
+img{
+  border: 0;
+}
+
+button{
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+input{
+  text-decoration: none;
+  background-color: none;
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+  -webkit-border-radius: 0;
+}
+
+input[type="text"],
+input[type="email"]{
+  border-bottom: 3px solid #ddd;
+  font-size: 20px;
+  transition: all .5s;
+  font-size: 20px;
+  font-weight: 500;
+  color: #222;
+  border: 0;
+  /* -webkit-text-fill-color: #000;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s; */
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder{
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #aaa;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus{
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-radius: 0;
+  border-bottom: 3px solid #15b392;
+}
+
+select{
+  background: none;
+  outline: none;
+  border-radius: 0;
+  cursor: pointer;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+textarea{
+  padding: 10px;
+  resize: none;
+  border-bottom: 3px solid #15b392;
+  font-size: 20px;
+  transition: all .5s;
+  font-size: 20px;
+  font-weight: 500;
+  color: #222;
+  font-family: pretendard;
+  outline: none;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border: 0;
+  border-bottom: 3px solid #ddd;
+}
+
+textarea::placeholder{
+  font-size: 20px;
+  font-weight: 400;
+  color: #aaa;
+  font-family: pretendard;
+}
+
+textarea:focus{
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-radius: 0;
+  border-bottom: 3px solid #15b392;
+}
+
+/* COMMON */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+html, #root {
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+html, body{
+  font-family: pretendard;
+}
+
+button{
+  padding: 0;
+}
+
+html, body{
+  overflow: visible !important;
+  height: auto !important;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

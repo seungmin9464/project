@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "img": "../image/react.png",
+        "title": "React",
+        "darkBg": "#291C16",
+        "lightBg": "#f9d9cb"
+    },
+    {
+        "id": "2",
+        "img": "../image/html.png",
+        "title": "HTML",
+        "darkBg": "#282828",
+        "lightBg": "#dfd7d7"
+    },
+    {
+        "id": "3",
+        "img": "../image/scss.png",
+        "title": "SCSS/CSS",
+        "darkBg": "#291821",
+        "lightBg": "#f9cbe3"
+    },
+    {
+        "id": "4",
+        "img": "../image/js.png",
+        "title": "JS/JAVASCRIPT",
+        "darkBg": "#141D27",
+        "lightBg": "#cad8e7"
+    },
+    {
+        "id": "5",
+        "img": "../image/photoshop.png",
+        "title": "Photoshop",
+        "darkBg": "#132620",
+        "lightBg": "#d0e3dd"
+    },
+    {
+        "id": "6",
+        "img": "../image/xd.png",
+        "title": "XD",
+        "darkBg": "#282514",
+        "lightBg": "#f5efce"
+    }
+]
